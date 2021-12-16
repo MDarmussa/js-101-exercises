@@ -45,6 +45,7 @@
 // console.log(finalFunction(-10))
 
 //----------------------------------
+//printing input number positive and negative using nested loop
 
 function finalFunction(enterAnumber) {
      if (enterAnumber > 0) {
