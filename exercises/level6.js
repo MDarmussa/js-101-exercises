@@ -8,10 +8,10 @@ function lvl6exercise1 (num) {
     return 'bye';
   }
 }
-console.log(lvl6exercise1(2))
+// console.log(lvl6exercise1(2))
 //-----------------
 
-function lvl6exercise2 () {
+function lvl6exercise2 () { //Modified by adding a parameter for input test
   // Push 10 'hello' strings into the array using a for loop, then return it
   var arr = []
   for(let i=0; i<10; i++) {
@@ -19,7 +19,7 @@ function lvl6exercise2 () {
   }
   return arr;
 }
-console.log(lvl6exercise2());
+// console.log(lvl6exercise2());
 //------------ xxxxx ------------------------------ extra made up
 // made up - entering a value and print an array with the value given.
 function lvl6exerciseX (num) {
@@ -30,7 +30,7 @@ function lvl6exerciseX (num) {
   }
   return arr;
 }
-console.log(lvl6exerciseX(5));
+// console.log(lvl6exerciseX(5));
 
 //-----------------
 
@@ -38,10 +38,10 @@ function lvl6exercise3 () {
   // Empty this array using a while loop and return it
   var arr = ['hello', 'hello', 'hello', 'hello', 'hello', 'hello', 'hello', 'hello', 'hello', 'hello'];
   //solve
-  while (arr.length > 1) {
+  while (arr.length) {
     var newarr = []
     let x = arr.pop();
-    arr.push(newarr);
+    // arr.push(newarr);
     arr--;
     // return empty;
   }
